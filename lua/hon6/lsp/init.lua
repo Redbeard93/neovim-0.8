@@ -16,7 +16,7 @@ mason_lspconfig.setup({
     "rust_analyzer",
     "pyright",
     --"codelldb",
-    "jdtls",
+    --"jdtls",
     --"java-test",
     --"java-debug-adapter",
     --"debugpy",
