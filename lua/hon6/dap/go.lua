@@ -1,5 +1,10 @@
 -- pacman -S delve
 -- go install github.com/go-delve/delve/cmd/dlv@latest
+--export GOROOT=/usr/lib/go -- go语言安装目录
+--export GOPATH=~/Projects/go -- go语言工作区
+--export GOBIN=$GOPATH/bin -- 存放go语言可执行文件目录
+--export PATH=$PATH:$GOROOT/bin:$GOBIN --为了随地调用go语言命令和go编译后的可执行文件，可以将$GOROOT/bin和$GOBIN加入到PATH
+
 
 return {
   adapters = function(callback, _) -- _ = config
