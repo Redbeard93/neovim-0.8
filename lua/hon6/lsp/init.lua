@@ -15,8 +15,8 @@ mason_lspconfig.setup({
     "gopls",
     "rust_analyzer",
     "pyright",
+    "jdtls",
     --"codelldb",
-    --"jdtls",
     --"java-test",
     --"java-debug-adapter",
     --"debugpy",
@@ -83,7 +83,7 @@ require("mason-lspconfig").setup_handlers({
       -- Initialize the LSP via rust-tools instead
       cfg.server = lspcfg
       require("rust-tools").setup(cfg)
-    else
+    elseif server_name ~= "jdtls" then
       lspconfig[server_name].setup(lspcfg)
     end
 
