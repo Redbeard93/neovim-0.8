@@ -7,9 +7,9 @@ local PYTHON_PATH = (function()
   if utils.is_win then
     return home .. "/AppData/Local/nvim-data/mason/packages/debugpy/venv/Scripts/python"
   elseif utils.is_mac then
-    return "/user/bin/python3.*"
+    return home .. "/.local/share/nvim/mason/packages/debugpy/venv/bin/python"
   else
-    return "/user/bin/python3.*"
+    return home .. "/.local/share/nvim/mason/packages/debugpy/venv/bin/python"
   end
 end)()
 
