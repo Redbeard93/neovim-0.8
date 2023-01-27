@@ -1,3 +1,5 @@
+-- Windows下 记得在 /home 目录下创建 /projects/project-data/jdtls-workspace/ 目录作为工作目录
+-- Linux JAVA环境变量
 --export JAVA_HOME=/usr/lib/jvm/java-17-openjdk 							#JDK的主目录，建议使用JDK11，使用JDK8会报错
 --PATH=$PATH:$JAVA_HOME/bin
 --export JDTLS_HOME=$HOME/AppData/Local/nvim-data/mason/packages/jdtls		# 包含 plugin 和 configs 的目录，由jdt-language-server-xxx.tar.gz解压出的
