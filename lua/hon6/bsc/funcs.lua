@@ -14,15 +14,15 @@ vim.g.python_path = "C:/Users/Redbeard/AppData/Local/Programs/Python/Python310"
 --statusline
 vim.cmd([[
 set statusline=
-set statusline+=\ \ %.62F
-set statusline+=\ \ \ %y錄%L
+set statusline+=󱧶\ %.62F
+set statusline+=\ \ 󰈙\ %y\ %LLines
 set statusline+=%=
-set statusline+=\ \ %{strftime(\"%m-%d-%y\ %H:%M\")}
+set statusline+=\ 󰃰\ %{strftime(\"%m-%d-%y\ %H:%M\")}
 set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
 set statusline+=\ %{&fileformat}\
 set statusline+=\ %l
 set statusline+=\ %c
-set statusline+=\ ﴜ%p
+set statusline+=\ 󰠞%p
 ]])
 
 -- netrw
