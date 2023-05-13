@@ -26,7 +26,7 @@ mason_lspconfig.setup({
 -- 安装列表
 -- { key: 语言 value: 配置文件 }
 local server_configs = {
-  sumneko_lua = require("hon6.lsp.sumneko_lua"), -- /lua/lsp/lua.lua
+  sumneko_lua = require("hon6.lsp.lua_ls"), -- /lua/lsp/lua.lua
   clangd = require("hon6.lsp.clangd"),
   gopls = require("hon6.lsp.gopls"),
   pyright = require("hon6.lsp.pyright"),
